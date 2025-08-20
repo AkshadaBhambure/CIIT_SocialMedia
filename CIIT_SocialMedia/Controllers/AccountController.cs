@@ -13,5 +13,18 @@ namespace CIIT_SocialMedia.Controllers
             return View();
         }
 
+        public IActionResult Logout()
+        {
+            return View();
+        }
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
     }
 }
